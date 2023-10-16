@@ -6,7 +6,7 @@ def reverse_with_for(sequence):
 
 def reverse_with_while(sequence):
     reversed_sequence = []
-    i = len(sequence) - 1
+    i = len(sequence) - 1 
     while i >= 0:
         reversed_sequence.append(sequence[i])
         i -= 1

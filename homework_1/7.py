@@ -3,7 +3,7 @@ def has_repeated_substring(s):
     i = 0
 
     while i < length - 1:
-        if s[i] == s[i + 1]:
+        if s[i] == s[i + 1]: 
             count = 2  
             while i + count < length and s[i] == s[i + count]:
                 count += 1
